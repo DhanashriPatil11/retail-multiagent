@@ -42,6 +42,11 @@ ollama run phi
 
 ## 🚀 How to Run Agents
 
+### Main File
+```bash
+python agents/main.py
+```
+
 ### Store Agent
 ```bash
 python agents/store_agent.py
@@ -90,21 +95,6 @@ Stock levels are low and close to the reorder point. Reorder today to avoid stoc
 
 [SupplierAgent] Day 1 Decision:
 Prepare a shipment based on historical lead times and warehouse capacity. Ensure timely dispatch.
-```
-
----
-
-## 🗂 Diagrams & Docs
-All flowcharts and diagrams are available in the `docs/` folder:
-
-- `docs/architecture.png`: System architecture overview
-- `docs/agent_interaction.png`: Agents' interaction flow
-- `docs/decision_flow.png`: Decision-making pipeline
-
-You can embed them into this README if desired:
-```markdown
-![Architecture](docs/architecture.png)
-![Agent Interaction](docs/agent_interaction.png)
 ```
 
 ---
