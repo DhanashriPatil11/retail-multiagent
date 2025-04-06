@@ -1,6 +1,5 @@
 # Multi-Agent Retail Inventory Optimization System
 
-![Ollama Logo](https://avatars.githubusercontent.com/u/141423365?s=200&v=4)
 
 ## 📌 Project Overview
 This project leverages a multi-agent architecture integrated with local LLMs (Ollama) to optimize retail inventory management. Three autonomous agents—**StoreAgent**, **WarehouseAgent**, and **SupplierAgent**—collaborate to:
